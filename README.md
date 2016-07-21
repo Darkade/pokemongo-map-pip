@@ -8,7 +8,7 @@ This is a [PokemonGo Map](https://github.com/AHAAAAAAA/PokemonGo-Map) installer.
 You can install PokemonGo Map by just using pip
 
 ```
-pip2 install -e git+https://github.com/Darkade/pokemongo-map-pip.git
+pip2 install -e git+https://github.com/Darkade/pokemongo-map-pip.git#egg=pokemongo-map-pip
 ```
 
 ## Usage
@@ -20,3 +20,7 @@ pokemap -st <step count> -l <location> -u <ptc user> -p <ptc password> -dg
 ```
 
 To learn more about how to use the PokemonGo Map you can go to [their wiki](https://github.com/AHAAAAAAA/PokemonGo-Map/wiki)
+
+## Caveats
+
+You may need to copy your `credentials.json` to `src/pokemongo-map-pip/PokemonGoMap/credentials.json`
